@@ -398,29 +398,43 @@ h4{
 .gridcontainer{
     margin-left:80px;
     display:grid;
-    height:700px;
+    height:1800px;
     width:100%;
     grid-template-columns:1fr 1fr 80px;
-    grid-template-rows:1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr;
     grid-template-areas:
     "topleft topright rightside"
     "bottomleft  bottomright rightside"
-    "bot pic pic"
-    "bottom pic pic"
     ;
 }
 .bbottom{
     grid-area:bottom;
-    margin-top:-120px;
+    padding-top:120px;
     display:flex;
-    padding-bottom:180px;
+    padding-bottom:220px;
+    padding-left:200px;
+    margin-left:-25px;
+    margin-top:0px;
+}
+.borderbottom{
+    margin-top:180px;
+    border-top:2px solid #2B3A2B;
+    width:0px;
+    margin-left:-25px;  
+    transition: .5s linear;
+
+}
+
+.borderbottomafter{
+    width:calc(100% + 175px);
+    transition: .5s linear;
 }
 
 .cred{
-    width:50%;
+    width:600px;
 }
 .fm{
-    width:50%;
+    width:500px;
 }
 .fm img{
     max-height:14px;
@@ -483,30 +497,8 @@ h4{
 
 
 
-.footnav{
-    display:inline;
-    font-family: gopher, sans-serif;
-    font-weight: 300;
-    font-style:normal;
-    text-decoration:none;
-    color:#2B3A2B;
-    font-size:85px;
-    padding-left:20px;
-    padding-top:40px;
-}
-.footnav b{
-    font-weight:500;
-}
-.footnav a{
-    padding-left:18px;
-}
 
-.footnav img{
-    height:40px;
-    width:40px;
-}
-
-.footnav:hover img{
+.email:hover img{
     animation-name: bounce;
     animation-duration: 750ms;
     animation-iteration-count: infinite;

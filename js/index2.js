@@ -1,9 +1,8 @@
 $("#natilation").click(function(){
 
 
-    if ($('.picling').hasClass("piclinghover")){
-        $(".picting").removeClass("cmen");
-        $('.navlinks').removeClass("flippingnav");
+    if ($('.rotatingm').hasClass("cmen")){
+        $(".rotatingm").removeClass("cmen");
         $('.sside').removeClass("cside");
         $('body').removeClass("pagesize");
     }
