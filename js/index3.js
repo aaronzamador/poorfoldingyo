@@ -5,16 +5,37 @@ $(window).on('scroll', function() {
 $(window).scroll(function() {    
     var scroll = $(window).scrollTop();
 
-    if (scroll > 2250){
-        $(".borderbottom").addClass("borderbottomafter");
+    if (scroll > 2400){
+        if ($(".borderbottom").hasClass("borderbottomafter")){
+
+        }
+        else{
+            $(".borderbottom").addClass("borderbottomafter")
+        }
     } 
-    else{}
+    else{
+        $(".borderbottom").removeClass("borderbottomafter")}
 });
+
+
+
+
+
 $(window).scroll(function() {    
     var scroll = $(window).scrollTop();
 
-    if (scroll < 2480){
-        $(".borderbottom").removeClass("borderbottomafter");
+    if (scroll > 2500){
+        if ($(".hex").hasClass("show")){
+
+        }
+        else{
+            $(".hex").addClass("show")
+        }
     } 
-    else{}
+    else{
+        $(".hex").removeClass("show")}
 });
+
+
+
+

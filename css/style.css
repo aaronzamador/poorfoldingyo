@@ -16,6 +16,7 @@ a{
 
 p{
     font-size:18px;
+    -webkit-font-smoothing: antialiased;
     line-height:40px;
     font-family: open-sans, sans-serif;
     color:#2B3A2B;
@@ -427,7 +428,7 @@ h4{
 
 .borderbottomafter{
     width:calc(100% + 175px);
-    transition: .5s linear;
+    transition:.5s linear;
 }
 
 .cred{
@@ -518,6 +519,28 @@ h4{
 }
 
 
+
+.hex{
+    position:absolute;
+    right:500px;
+    bottom: -2400px ;
+    opacity:0;
+    transition:all .5s linear;
+}
+
+
+.corn img{
+    transform:rotate(15deg);}
+
+    .show{
+        opacity:1;
+        transition:.5s ease;
+    }
+.sideclick{
+    transition:.5s ease;
+    position:absolute;
+    right:900px;
+}
 .preload{
     position:fixed;
     width:100%;
