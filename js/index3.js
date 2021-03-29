@@ -23,17 +23,21 @@ $(window).scroll(function() {
 
 $(window).scroll(function() {    
     var scroll = $(window).scrollTop();
+    var delayInMilliseconds = 500;
 
     if (scroll > 2500){
         if ($(".hex").hasClass("show")){
 
         }
         else{
-            $(".hex").addClass("show")
+            $(".hex").addClass("show");setTimeout(function() {
+            $(".curntext").addClass("curntextscroll");}, delayInMilliseconds);
         }
     } 
     else{
-        $(".hex").removeClass("show")}
+        $(".curntext").removeClass("curntextscroll");
+        $(".hex").removeClass("show");
+    }
 });
 
 
