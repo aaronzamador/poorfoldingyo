@@ -1,3 +1,8 @@
+ /* 2K SCREENS 2K SCREENS 2K SCREENS 2K SCREENS 2K SCREENS 2K SCREENS
+ 2K SCREENS 2K SCREENS 2K SCREENS 2K SCREENS 2K SCREENS 2K SCREENS 
+ 2K SCREENS 2K SCREENS 2K SCREENS 2K SCREENS 2K SCREENS 2K SCREENS  */
+
+
 html {
     scroll-behavior: smooth;
 }
@@ -23,7 +28,6 @@ p{
     font-weight: 400;
     font-style: normal; 
 }
-
 
 
 
@@ -66,7 +70,6 @@ h1{
 
 .babies{
     padding-top:20px;
-    padding-bottom:0px;
 }
 
 h2{
@@ -159,7 +162,8 @@ h2:hover img{
     font-size:18px;
 }
 
-.ux{padding-left:5px;
+.ux{
+    padding-left:5px;
 }
 
 
@@ -202,8 +206,6 @@ header{
     font-family: gopher, sans-serif;
     font-size:18px;
     font-weight:300;
-    letter-spacing:0px;
-    margin-top:0px;
     padding-top:25px;
     padding-bottom:30px;
     padding-right:80px;
@@ -252,7 +254,6 @@ header{
     bottom:-25px;
     right:-25px;
     width:200px;
-    height:20;
     transition: 1s;
 }
 
@@ -502,7 +503,7 @@ h4{
 .hex{
     display:flex;
     position:absolute;
-    right:260px;
+    left:1600px;
     z-index:3;
     bottom: -2350px ;
     opacity:0;
@@ -516,10 +517,19 @@ h4{
 .curntext{
     margin-top:230px;
     margin-left:70px;
+    transition:all .3s linear;
 }
 
 
+.sideclick{
+    transition:.5s ease;
+    position:absolute;
+}
 
+.curnsideclick{
+    transition:.5s linear;
+    position:absolute;
+}
 
 
 
@@ -611,14 +621,245 @@ h4{
     max-width:1902px;
 }
 
-.sideclick{
-    transition:.5s ease;
-    position:absolute;
-    right:660px;
+.txtclick{
+    opacity:0;
+    transition:all .3s linear;
 }
 
-.curnsideclick{
+
+
+
+
+
+@media only screen and (max-width: 2240px) {
+
+    .curntext{
+        opacity:0;
+        }
+}
+
+@media only screen and (max-width: 2075px) {
+
+    .hex{
+        left:1450px;
+        }
+}
+
+@media only screen and (max-width: 1925px) {
+
+    .hex{
+        left:1350px;
+        }
+}
+
+@media only screen and (max-width: 1830px) {
+
+    .hex{
+        left:1250px;
+        }
+}
+
+@media only screen and (max-width: 1550px) {
+
+    .hex{
+        left:1150px;
+        }
+}
+
+
+ /* 1440 SCREENS 1440 SCREENS 1440 SCREENS 1440 SCREENS 1440 SCREENS 
+ 1440 SCREENS 1440 SCREENS 1440 SCREENS 1440 SCREENS 1440 SCREENS 
+ 1440 SCREENS 1440 SCREENS 1440 SCREENS 1440 SCREENS 1440 SCREENS  */
+
+ @media only screen and (max-width: 1441px) {
+
+.sside{
+    right:-402px;
+    width:400px;
+}
+
+p{
+    font-size:12px;
+    line-height:25px;
+}
+
+
+.seriouslinks{
+    margin-top:40px;
+}
+
+h1{
+     font-size:36px;
+     line-height:80px;
+}
+
+.h1alsothis{
+    font-size:36px;
+    line-height:-10px;
+}
+
+h2{
+     font-size:24px;
+}
+
+h2 img{
+    max-height:18px;
+}
+
+.babies{
+    padding-top:0px;
+}
+
+.topleft{
+    width:85%;
+}
+
+.navlinks{
+    margin-right:120px;
+    padding-right:20px;
+    width:15%;
+}
+
+.nl{
+    font-size:16px;
+    padding-top:20px;
+    padding-bottom:25px;
+}
+
+.rotatingm img{
+    width:80px;
+    height:80px;
+}
+
+.menbase img{
+    width:180px;
+
+}
+#rota img{
+    margin-top:14px;
+}
+
+#topper{
+    font-size:16px;
+    margin-top:25px;
+    padding-bottom:20px;
+}
+
+#topper b{
+    font-size:16px;
+}
+
+#hole{
+    margin-top:40px;
+}
+
+#intro img{
+    height:25px;
+    width:25px;
+}
+
+h3{
+    font-size:48px;
+}
+
+
+#background{
+    margin-top:40px;
+}
+
+h4{
+    font-size:24px;
+}
+
+.bodyodyody{
+    margin-top:-10px;
+}
+
+.gridcontainer{
+    grid-template-columns:1fr 1fr 50px;
+    height:1200px;
+}
+
+.talmbout{
+    margin-top:0px;
+}
+
+.titletag{
+    margin-top:-50px;
+    font-size:10px;
+    padding-bottom:00px;
+}
+
+.preload img{
+    width:150px;
+    height:150px;
+}
+
+.borderbottom{
+    margin-top:80px;
+    width:0px;
+}
+
+.bbottom{
+    padding-bottom:160px;
+    padding-left:100px;
+    padding-top:60px;
+}
+
+.hex{
+    bottom: -1680px ;
+    left:900px;
+}
+
+.corn img{
+    max-width:180px;
+}
+
+.curntext{
+    margin-left:40px;
+    width:100px;
+    margin-top:140px;
+    font-size:12px;
+}
+
+.cred{
+    width:400px;
+}
+.fm{
+    width:300px;
+}
+
+.fm img{
+    max-height:12px;
+}
+
+.socials{
+    margin-top:-28px;
+}
+.socials img{
+    height:12px;
+    width:12px;
+    padding-top:9px;
+}
+
+.pagesize{
+    max-width:1090px;
+}
+
+.cside{
+    margin-right:400px;
+}
+
+.borderbottomafter{
+    width:calc(100% + 175px);
     transition:.5s linear;
-    position:absolute;
-    right:560px;
+}
+.show{
+    opacity:1;
+    transition:.5s ease;
+}
+
+.curntextscroll{
+    opacity:1;
+    transition:all .5s linear;
 }
