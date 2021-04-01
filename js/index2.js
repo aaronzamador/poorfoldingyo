@@ -53,14 +53,17 @@ function myFunction(x) {
             if ($('.rotatingm').hasClass("cmen")){
                 $(".rotatingm").removeClass("cmen");
                 $('.sside').removeClass("cside");
-                $('body').removeClass("pagesize");
+                $('.gridcontainer').removeClass("clips");
                 $('.curntext').removeClass("txtclick");
+                $('.ded').removeClass("dedclick");
+                $('.red').removeClass("redclick");
             }
             else{
                 $('.rotatingm').addClass("cmen");
                 $('.sside').addClass("cside");
-                $('body').addClass("pagesize");
-                $('.curntext').addClass("txtclick");
+                $('.gridcontainer').addClass("clips");
+                $('.ded').addClass("dedclick");
+                $('.red').addClass("redclick");
             }
         
         

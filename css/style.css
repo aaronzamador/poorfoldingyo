@@ -366,6 +366,7 @@ h4{
     "topleft topright rightside"
     "bottomleft  bottomright rightside"
     ;
+    transition:.2s linear;
 }
 
 .tleft{
@@ -654,15 +655,46 @@ h4{
 
 @media only screen and (max-width: 1830px) {
 
+    .bbottom{
+        padding-left:120px;
+    }
+    .cred{
+        width:500px;
+    }
+    
+    .fm{
+        width:400px;
+    }
     .hex{
         left:1250px;
         }
+    .navlinks{
+        padding-right:60px;}
+    
 }
 
-@media only screen and (max-width: 1550px) {
+@media only screen and (max-width: 1730px) {
 
     .hex{
         left:1150px;
+        }
+}
+@media only screen and (max-width: 1630px) {
+
+    .hex{
+        left:1050px;
+        }
+        .navlinks{
+            padding-right:80px;}
+        
+}
+@media only screen and (max-width: 1550px) {
+
+    .cred{
+        width:400px;
+    }
+    .hex{
+        left:950px;
         }
 }
 
@@ -671,18 +703,22 @@ h4{
  1440 SCREENS 1440 SCREENS 1440 SCREENS 1440 SCREENS 1440 SCREENS 
  1440 SCREENS 1440 SCREENS 1440 SCREENS 1440 SCREENS 1440 SCREENS  */
 
- @media only screen and (max-width: 1441px) {
+@media only screen and (max-width: 1441px) {
 
-.sside{
-    right:-402px;
-    width:400px;
+    body{
+    max-width:1300px;
 }
+
 
 p{
     font-size:12px;
     line-height:25px;
 }
 
+.sside{
+    right:-402px;
+    width:400px;
+}
 
 .seriouslinks{
     margin-top:40px;
@@ -750,7 +786,7 @@ h2 img{
 }
 
 #hole{
-    margin-top:40px;
+    margin-top:60px;
 }
 
 #intro img{
@@ -781,13 +817,16 @@ h4{
 }
 
 .talmbout{
-    margin-top:0px;
+    margin-top:-10px;
 }
 
 .titletag{
     margin-top:-50px;
-    font-size:10px;
     padding-bottom:00px;
+}
+
+.tag{
+    font-size:12px;
 }
 
 .preload img{
@@ -807,8 +846,8 @@ h4{
 }
 
 .hex{
-    bottom: -1680px ;
-    left:900px;
+    bottom: -1620px ;
+    left:840px;
 }
 
 .corn img{
@@ -817,13 +856,13 @@ h4{
 
 .curntext{
     margin-left:40px;
-    width:100px;
-    margin-top:140px;
+    width:200px;
+    margin-top:160px;
     font-size:12px;
 }
 
 .cred{
-    width:400px;
+    width:300px;
 }
 .fm{
     width:300px;
@@ -842,9 +881,23 @@ h4{
     padding-top:9px;
 }
 
-.pagesize{
-    max-width:1090px;
+.ded{
+    display:inherit;
+    transition:.2s linear;
 }
+.dedclick{
+    display:none;
+    transition:.2s linear;
+}
+.red{
+    display:none;
+    transition:.2s linear;
+}
+.redclick{
+    display:inherit;
+    transition:.2s linear;
+}
+
 
 .cside{
     margin-right:400px;
@@ -862,4 +915,33 @@ h4{
 .curntextscroll{
     opacity:1;
     transition:all .5s linear;
+}
+
+.cside{
+    margin-right:400px;
+}
+
+.clips{
+    width:calc(100% - 360px);
+    transition:.2s linear;
+}
+
+
+@media only screen and (max-width: 1175px) {
+
+
+    .hex{
+        left:750px;
+        }
+        
+    .navlinks{
+        padding-right:60px;
+
+    }
+@media only screen and (max-width: 1075px) {
+
+
+    .hex{
+        left:700px;
+        }
 }
