@@ -358,7 +358,7 @@ h4{
 .gridcontainer{
     margin-left:80px;
     display:grid;
-    height:1800px;
+    height:1200px;
     width:100%;
     grid-template-columns:1fr 1fr 80px;
     grid-template-rows:1fr 1fr;
@@ -440,7 +440,7 @@ h4{
 
 
 .borderbottom{
-    margin-top:180px;
+    margin-top:780px;
     border-top:2px solid #2B3A2B;
     width:0px;
     margin-left:-25px;  
@@ -460,12 +460,12 @@ h4{
 
 .bbottom{
     grid-area:bottom;
-    padding-top:120px;
+    padding-top:80px;
     display:flex;
-    padding-bottom:220px;
+    padding-bottom:240px;
     padding-left:200px;
     margin-left:-25px;
-    margin-top:0px;
+    margin-top:80px;
 }
 
 .cred{
@@ -504,9 +504,9 @@ h4{
 .hex{
     display:flex;
     position:absolute;
-    left:1600px;
+    left:65%;
     z-index:3;
-    bottom: -2350px ;
+    top: 3080px ;
     opacity:0;
     transition:all .3s linear;
 }
@@ -517,7 +517,7 @@ h4{
 
 .curntext{
     margin-top:230px;
-    margin-left:70px;
+    margin-left:60px;
     transition:all .3s linear;
 }
 
@@ -634,26 +634,13 @@ h4{
 
 @media only screen and (max-width: 2240px) {
 
-    .curntext{
-        opacity:0;
-        }
 }
 
 @media only screen and (max-width: 2075px) {
 
-    .hex{
-        left:1450px;
-        }
 }
 
 @media only screen and (max-width: 1925px) {
-
-    .hex{
-        left:1350px;
-        }
-}
-
-@media only screen and (max-width: 1830px) {
 
     .bbottom{
         padding-left:120px;
@@ -665,25 +652,22 @@ h4{
     .fm{
         width:400px;
     }
-    .hex{
-        left:1250px;
-        }
     .navlinks{
         padding-right:60px;}
-    
+}
+
+@media only screen and (max-width: 1830px) {
+
+    .hex{
+        left:1100px;
+    }
 }
 
 @media only screen and (max-width: 1730px) {
-
-    .hex{
-        left:1150px;
-        }
+    .curntext{opacity:0;}
 }
 @media only screen and (max-width: 1630px) {
 
-    .hex{
-        left:1050px;
-        }
         .navlinks{
             padding-right:80px;}
         
@@ -693,9 +677,6 @@ h4{
     .cred{
         width:400px;
     }
-    .hex{
-        left:950px;
-        }
 }
 
 
@@ -706,7 +687,7 @@ h4{
 @media only screen and (max-width: 1441px) {
 
     body{
-    max-width:1300px;
+    max-width:1440px;
 }
 
 
@@ -741,7 +722,9 @@ h2{
 h2 img{
     max-height:18px;
 }
-
+#anotherheader{
+    padding-right:0px;
+}
 .babies{
     padding-top:0px;
 }
@@ -846,7 +829,7 @@ h4{
 }
 
 .hex{
-    bottom: -1620px ;
+    top:1980px;
     left:840px;
 }
 
@@ -944,4 +927,168 @@ h4{
     .hex{
         left:700px;
         }
+}
+
+@media only screen and (max-width: 1024px) {
+
+    body{
+        max-width:800px;
+    }
+
+p{
+        font-size:10px;
+        line-height:20px;
+}
+    
+h3{
+    font-size:36px;
+}
+    
+h1{
+    font-size:24px;
+    line-height:70px;
+}
+.sside{
+    width:300px;
+}
+.seriouslinks{
+    margin-top:40px;
+    margin-left:60px;
+}
+.babies{
+    padding-top:10px;
+}
+.h1alsothis{
+    line-height: -25px;
+    font-size:24px;
+}
+#rota img{
+    max-height:30px;
+    margin-top:17px;
+}
+h4{
+    font-size:18px;
+}
+h2{
+    font-size:18px;
+}
+h2 img{
+    max-height:12px;
+    padding-right:18px;
+}
+#intro img{
+    height:20px;
+    width:20px;
+}
+
+#topper{
+    font-size:12px;
+    margin-top:25px;
+    padding-bottom:20px;
+}
+
+#topper b{
+    font-size:12px;
+}
+.navlinks{
+    padding-right:00px;
+    margin-right:100px;
+}
+
+.nl{
+    font-size:12px;
+    padding-right:40px;
+}
+
+.borderbottom{
+    margin-top:40px;
+    width:0px;
+}
+
+.bbottom{
+    padding-bottom:160px;
+    padding-top:00px;
+    margin-top:40px;
+    
+}
+.gridcontainer{
+    height:800px;
+    grid-template-columns:1fr 1fr 30px;
+}
+
+.hex{
+    top:1440px;
+    left:65%;
+    height:480px;
+}
+.curntext{
+    margin-left:20px;
+    width:165px;
+    margin-top:110px;
+    font-size:10px;
+}
+
+.bright{
+    margin-top:-40px;
+}
+.bleft{
+    margin-top:-40px;
+}
+.corn img{
+    max-width:120px;
+}
+.cred{
+    width:250px;
+}
+.fm img{
+    max-height:10px;
+}
+
+.socials{
+    margin-top:-25px;
+}
+.socials img{
+    height:10px;
+    width:10px;
+    padding-top:9px;
+}
+
+
+.preload img{
+    width:120px;
+    height:120px;
+}
+.rotatingm img{
+    width:60px;
+    height:60px;
+}
+
+.menbase img{
+    width:160px;
+
+}
+
+
+.plastic{
+    word-spacing:8px;
+}
+
+.borderbottomafter{
+    width:calc(100% + 150px);
+    transition:.5s linear;
+}
+
+.clips{
+    width:calc(100% - 280px);
+    transition:.2s linear;
+}
+.txtclick{
+    opacity:0;
+    transition:all .3s linear;
+}
+
+@media only screen and (max-width: 980px) {
+
+
+
 }
